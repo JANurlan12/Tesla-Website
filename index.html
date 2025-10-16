@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a hrf="index.html"> <img src="IMG/Tesla_logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-ellipsis-v" onclick="hideMenu()"></i>
+                
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Vehicles</a></li>
+                    <li><a href="#">Charging</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="hideMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>World Biggest Company</h1>
+    <p>Tesla, Inc. is an American multinational automotive and clean energy company headquartered in Austin, Texas, which designs, manufactures and sells electric vehicles, stationary battery energy storage devices from home to grid-scale, solar panels and solar shingles, and related products and services.</p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+    </section>
+
+<!-------Course-->
+<section class="course">
+    <h1>Course We Offer</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>  
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>The Future is Sustainable</h3>
+            <p>We’re building a world powered by solar energy, running on batteries and transported by electric vehicles. Explore the most recent impact of our products, people and supply chain.</p>
+        </div>
+        <div class="course-col">
+            <h3>The Future is Sustainable</h3>
+            <p>We’re building a world powered by solar energy, running on batteries and transported by electric vehicles. Explore the most recent impact of our products, people and supply chain.</p>
+        </div>
+        <div class="course-col">
+            <h3>The Future is Sustainable</h3>
+            <p>We’re building a world powered by solar energy, running on batteries and transported by electric vehicles. Explore the most recent impact of our products, people and supply chain.</p>
+        </div>
+    </div>
+</section>
+
+<!-------JavaScript for Toggle Menu-->
+
+    <script>
+        var navLinks = document.getElementsById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+</html>
